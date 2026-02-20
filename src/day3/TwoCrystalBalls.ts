@@ -1,6 +1,6 @@
-export default function two_crystal_balls(breaks: boolean[]): number {
+//:export default function two_crystal_balls(breaks: boolean[]): number {
 
-    const jmpAmount = Math.floor(Math.sqrt(breaks.length));
+ /*  const jmpAmount = Math.floor(Math.sqrt(breaks.length));
     
     let i = jmpAmount;
     for(; i < breaks.length; i += jmpAmount) {
@@ -15,5 +15,5 @@ export default function two_crystal_balls(breaks: boolean[]): number {
             return i;
         }
     }
-    return -1;
+    return -1;//:
 }
